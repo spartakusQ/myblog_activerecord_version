@@ -7,7 +7,6 @@ require 'sinatra/reloader'
 
 
 
-
 get '/' do
 	erb "Hello!>"
 end
