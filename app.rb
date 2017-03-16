@@ -19,3 +19,8 @@ end
 get '/contacts' do
   erb :contacts
 end
+
+
+get '/feedback' do
+  erb :feedback
+end
