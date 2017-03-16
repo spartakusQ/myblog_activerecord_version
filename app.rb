@@ -12,5 +12,10 @@ end
 
 
 get '/' do
-	erb "Hello!>"
+  erb "Hello!>"
+end
+
+
+get '/contacts' do
+  erb :contacts
 end
