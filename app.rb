@@ -24,3 +24,8 @@ end
 get '/feedback' do
   erb :feedback
 end
+
+
+get '/posts' do
+  erb :posts
+end
